@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-wrapper {
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  
+  
+  }
+  
+  .left-nav {
+    display: flex;
+    align-items: center;
+    flex: 50%;
+  }
+  
+  #logo {
+    display: block;
+    max-width:210px;
+    max-height:47px;
+    width: auto;
+    height: auto;
+  }
+  
+  .nav-grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    width: 50%;
+    
+  }
+  
+  .explore {
+    color: yellow;
+    font-size: 1.5em;
+  }
+  
+  
+  .links-wrapper {
+    flex: 60%;
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links-wrapper div {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  
+  .links-wrapper .spark{
+    color: grey;
+    font-weight: 400;
+    margin-left: 8%;
+  }
+  .links-wrapper div:last-child {
+    color: grey;
+  }
+  
+  
+  .right-nav {
+    padding-right: 30px;
+    flex: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .green-arrow {
+    font-size: 1.3em;
+    color: lightgreen;
+  }
+  
+  .btn {
+    background-color: rgb(54,56,63);
+    font-weight: 700;
+    padding: 1.2rem 1.75rem;
+      border-radius: 5px;
+  }
+  
+  .mag-glass {
+    font-size: 2.5em;
+  }
+  .main {
+    width: 100%;
+    height: 1vh;
+    background-image: radial-gradient(top left, rgb(70, 70, 70) 1%, black 100%);
+    background-image: -webkit-radial-gradient(top left, rgb(70,70,70) 1%, black 100%);
+    height: 800px;
+  }
+  
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    
+  }
+  
+  .right-side {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-side h5 {
+      font-size: 1.25em;
+  }
+  
+  .right-side > .image-wrapper > img{
+    width: 70%;
+  
+  }
+
+  .left-side {
+      padding: 50px 0px 0px 35px;
+      font-size: 3em;
+      color: rgb(165, 164, 164);
+  }
+
+  .highlighted-text {
+    font-weight: 700;
+    color: white;
+  }
+
+  .projects {
+      color: rgb(111, 216,248);
+  }
+
+  .bottom-text {
+      margin: 1em 0;
+  }
+
+  .sign-up {
+      font-size: 0.7em;
+      background-color: rgb(75,206,121);
+
+  }
+
+  .learn-more {
+      color: white;
+      background-color: black;
+      outline: none;
+      font-size: 0.7em;
+  }
+
+  .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      text-align: center;
+      
+    }
+    
+    .footer-item {
+        padding: 0.5em 1.5em;
+        border: 2px solid white;
+        border-collapse: collapse;
+        padding: 1.5em 0;
+        background-color:rgb(54, 56, 63);
+        font-weight: 600;
+  }
+
+  .bold-text {
+      font-size: 1.5em;
+      font-weight: 900;
+  }
