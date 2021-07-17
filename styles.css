@@ -4,20 +4,25 @@ body {
     padding: 0;
     margin: 0;
   }
+
+  .wrapper {
+    height: 100%;
+  }
+  
   .nav-wrapper {
     background-color: black;
     padding: 1em;
     display: flex;
     width: 100%;
     align-items: center;
-  
-  
+    border: 2px solid yellow;
   }
   
   .left-nav {
     display: flex;
     align-items: center;
     flex: 50%;
+    border: 2px solid lightblue;
   }
   
   #logo {
@@ -26,6 +31,7 @@ body {
     max-height:47px;
     width: auto;
     height: auto;
+    border: 2px solid red;
   }
   
   .nav-grid {
@@ -33,12 +39,13 @@ body {
     flex-direction: column;
     margin-left: 6%;
     width: 50%;
-    
+    border: 2px solid white;
   }
   
   .explore {
     color: yellow;
     font-size: 1.5em;
+    border: 2px solid greenyellow;
   }
   
   
@@ -48,6 +55,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    border: 2px solid teal;
   }
   
   .links-wrapper div {
@@ -71,6 +79,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid purple;
   }
   
   .green-arrow {
@@ -82,7 +91,7 @@ body {
     background-color: rgb(54,56,63);
     font-weight: 700;
     padding: 1.2rem 1.75rem;
-      border-radius: 5px;
+      border-radius: 2px;
   }
   
   .mag-glass {
@@ -94,33 +103,47 @@ body {
     background-image: radial-gradient(top left, rgb(70, 70, 70) 1%, black 100%);
     background-image: -webkit-radial-gradient(top left, rgb(70,70,70) 1%, black 100%);
     height: 800px;
+    border: 2px solid rgb(173, 105, 173);
   }
   
   .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3em;
-    
+    border: 2px solid rgb(62, 233, 204);
   }
   
   .right-side {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    border: 2px solid rgb(82, 233, 62);
+    text-align: right;
+  }
+
+  .right-wrapper {
+    border: 2px solid rgb(62, 199, 233);
+    height: 100%;
   }
 
   .right-side h5 {
-      font-size: 1.25em;
+    font-size: 1.25em;
+    border: 1px solid rgb(167, 233, 62);
+    display: flex;
+    width: 70%;
+    float: right;
   }
   
-  .right-side > .image-wrapper > img{
+  .right-side > .right-wrapper > img{
     width: 70%;
   
   }
 
   .left-side {
-      padding: 50px 0px 0px 35px;
+      padding: 50px 0px 0px 32px;
       font-size: 3em;
       color: rgb(165, 164, 164);
+      border: 2px solid rgb(233, 179, 62);
   }
 
   .highlighted-text {
@@ -128,7 +151,7 @@ body {
     color: white;
   }
 
-  .projects {
+  .projects-text {
       color: rgb(111, 216,248);
   }
 
