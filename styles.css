@@ -8,7 +8,7 @@ body {
   .wrapper {
     height: 100%;
   }
-  
+
   .nav-wrapper {
     background-color: black;
     padding: 1em;
@@ -83,7 +83,6 @@ body {
   }
   
   .green-arrow {
-    font-size: 1.3em;
     color: lightgreen;
   }
   
